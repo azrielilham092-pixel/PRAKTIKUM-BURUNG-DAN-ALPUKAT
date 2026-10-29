@@ -1,0 +1,205 @@
+/* ===== styleku.css : tampilan burung.html ===== */
+
+/* ---------- Dasar ---------- */
+body {
+    margin: 0;
+    padding: 8px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------- Header ---------- */
+#header {
+    background-color: burlywood;
+    padding: 10px 12px 14px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 8px 0 12px;
+    font-size: 1.3em;
+    color: mediumblue;
+}
+
+#header blockquote {
+    margin: 0;
+    padding: 4px 10px;
+    background-color: gold;
+    border: 1px solid darkgoldenrod;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#soekarno {
+    display: block;
+    font-weight: normal;
+}
+
+/* ---------- Menu ---------- */
+#header + div {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#header + div ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header + div li {
+    display: inline-block;
+    margin: 0 4px;
+    font-size: 0.7em;
+}
+
+#header + div a {
+    color: mediumblue;
+    text-decoration: underline;
+}
+
+/* ---------- Foto utama ---------- */
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.gambar img {
+    height: 160px;
+    width: auto;
+    border: 2px solid white;
+}
+
+/* ---------- Isi ---------- */
+.isi p {
+    margin: 14px 0;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+/* huruf pertama besar berwarna biru */
+.isi p:first-of-type::first-letter {
+    font-size: 2.2em;
+    color: mediumblue;
+}
+
+/* ---------- Profil & Budidaya ---------- */
+#profil,
+#beternak {
+    font-size: 0.7em;
+}
+
+#profil h3,
+#beternak h3 {
+    margin: 14px 0 6px;
+    font-size: 1em;
+}
+
+#profil ul {
+    margin: 0;
+    padding-left: 22px;
+    list-style-type: disc;
+}
+
+#profil li {
+    margin-bottom: 2px;
+    font-size: 0.9em;
+}
+
+#beternak ol {
+    margin: 0;
+    padding-left: 22px;
+}
+
+#beternak li {
+    margin-bottom: 8px;
+}
+
+#beternak h4 {
+    margin: 4px 0;
+    font-size: 1em;
+}
+
+#beternak p {
+    margin: 0 0 4px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/* ---------- Koleksi foto ---------- */
+.koleksi {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin: 28px 0;
+}
+
+.koleksi img {
+    width: 23%;
+    height: auto;
+    border: 4px solid white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Promo ---------- */
+.promo {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.promo h2 {
+    margin: 10px 0 6px;
+    font-size: 1.1em;
+}
+
+.promo h3 {
+    margin: 6px 0;
+    font-size: 0.9em;
+}
+
+.promo del {
+    color: red;
+}
+
+.promo strong {
+    color: red;
+}
+
+#Wa {
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.promo h4 {
+    margin: 14px 0 8px;
+    font-size: 0.8em;
+}
+
+/* tombol eCommerce */
+.promo ol {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.promo ol a[href] {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.85em;
+    text-decoration: none;
+    border-radius: 6px;
+}
